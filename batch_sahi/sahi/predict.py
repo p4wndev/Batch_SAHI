@@ -208,8 +208,7 @@ def get_sliced_prediction_batch(
     # for profiling
     durations_in_seconds = dict()
 
-    # currently only 1 batch supported
-    num_batch = batch #num of slices of the image per batch it has to divide number of slices TODO: dynamic calculation
+    num_batch = batch 
 
     # create slices from full image
     time_start = time.time()
